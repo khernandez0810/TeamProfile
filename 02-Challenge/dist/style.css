@@ -1,0 +1,19 @@
+header{
+    background-color:indianred;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color:floralwhite
+}
+.cardHead{
+    background-color:dodgerblue;
+    color:floralwhite
+
+};
+.label{
+    border: 5px solid black;
+}
+.cardBody{
+    background-color:khaki;
+    font-size: 20px;
+}
