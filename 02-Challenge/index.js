@@ -135,7 +135,7 @@ const addEmployee = () => {
         },
         {
             type: "input",
-            message: "What school did your employee attend??",
+            message: "What school did your employee attend?",
             name: 'school',
             when: (input) => input.role === "Intern",
             validate: userInput => {
