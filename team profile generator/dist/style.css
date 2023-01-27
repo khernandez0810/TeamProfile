@@ -1,0 +1,37 @@
+*{
+    font-family: 'Anonymous Pro', monospace;
+}
+
+header{
+    background-color:indianred;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color:floralwhite
+}
+.cardHead{
+    background-color:dodgerblue;
+    color:floralwhite;
+    text-align: center;
+
+
+
+}
+.label{
+    border: 3px solid indianred;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: indianred;
+color:floralwhite;
+font-weight: 800;
+}
+.cardBody{
+    background-color:khaki;
+    font-size: 20px;
+}
+a{
+    color: floralwhite;
+}
+h2{
+    font-weight: bolder;
+}
