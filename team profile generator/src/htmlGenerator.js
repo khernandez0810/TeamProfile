@@ -8,7 +8,7 @@ return `    <div class="col-4 mt-4">
         <h4><i class="fa-solid fa-glasses"></i> Intern</h4>
     </div>
     <div class="cardBody card-body">
-        <p class="label">ID: ${intern.id}</p>
+        <p class="label">Employee ID: ${intern.id}</p>
         <p class="label">Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
         <p class="label">School: ${intern.school}</p>
     </div>
@@ -24,7 +24,7 @@ const generateEngineer = (engineer) => {
                 <h4><i class="fa-solid fa-computer"></i> Engineer</h4>
             </div>
             <div class="card-body cardBody">
-                <p class="label">ID: ${engineer.id}</p>
+                <p class="label">Employee ID: ${engineer.id}</p>
                 <p class="label">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
                 <p class="label">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
             </div>
@@ -41,7 +41,7 @@ const generateManager = (manager) => {
                 <h4><i class="fa-solid fa-mug-hot"></i> Manager</h4>
             </div>
             <div class="card-body cardBody">
-                <p class="label">ID: ${manager.id}</p>
+                <p class="label">Employee ID: ${manager.id}</p>
                 <p class="label">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
                 <p class="label">Office Number: ${manager.officeNumber}</p>
             </div>
